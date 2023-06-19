@@ -8,7 +8,7 @@ function checkGuess()
     if(inputNumber > randomNumber)
     {
         gameResult.textContent="Too High! Try Again...";
-        gameResult.style.backgroundColor="Red";
+        gameResult.style.backgroundColor="Red";//comment
     }
     else if(inputNumber < randomNumber)
     {
