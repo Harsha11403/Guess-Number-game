@@ -1,0 +1,35 @@
+.bg-container{
+    background-color: #246db6;
+    height: 100vh;
+}
+.guess-game-text{
+    color: #b62424;
+    font-size: 30px;
+}
+.guess-game-heading{
+    color: white;
+    font-weight: bold;
+    font-size: 35px;
+    padding: 20px;
+}
+.guess-game-button{
+    color: whitesmoke;
+    background-color: cyan;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    padding-left: 25px;
+    padding-right: 25px;
+    margin:20px;
+    border-width: 0px;
+    border-radius: 5px;
+}
+.game-image{
+    margin: 25px;
+}
+.guess-game-result-text
+{
+    font-family: "Roboto";
+    font-size: 30px;
+    color: whitesmoke;
+    padding: 10px;
+}
