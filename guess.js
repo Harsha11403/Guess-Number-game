@@ -1,7 +1,7 @@
 let randomNumber=Math.ceil(Math.random()*100);
 console.log(randomNumber);
-let inputText=document.getElementById("userInput");
-let gameResult=document.getElementById("gameOutput");
+let inputText=document.getElementById("userInput");  //taking user input
+let gameResult=document.getElementById("gameOutput");  
 function checkGuess()
 {
     let inputNumber=parseInt(inputText.value);
